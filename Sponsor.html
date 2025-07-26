@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Sponsorship - WISDOM POTFOLIO</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        /* Body styling for a flexbox layout, crucial for sticky footer */
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            min-height: 100vh; /* Ensures body takes at least the full viewport height */
+            display: flex; /* Enables flexbox for children */
+            flex-direction: column; /* Stacks children vertically */
+            justify-content: flex-start; /* Aligns content to the very top */
+            align-items: stretch; /* Ensures children like .container stretch to fill width */
+            padding-bottom: 20px; /* Keep padding at the bottom if desired for content above the footer */
+            text-decoration: none;
+        }
+
+        /* Other existing custom styles */
+        .modal-dialog-centered {
+            display: flex;
+            align-items: center;
+            min-height: calc(100vh - 1rem);
+        }
+        .crypto-address-info {
+            background-color: #ffc400;
+            border-radius: 0.375rem;
+            padding: 1rem;
+            margin-top: 1rem;
+            font-family: monospace;
+            word-break: break-all;
+            color: #000000;
+            cursor: pointer;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .crypto-address-info small {
+            font-size: 0.8em;
+            color: #000000;
+        }
+        /* Style for QR Code Images */
+        .crypto-qr-image {
+            width: 150px;
+            height: 150px;
+            object-fit: contain; /* Ensures the image fits without distortion */
+            margin: 1rem auto;
+            border: 1px solid #292b2c; /* Optional border */
+            border-radius: 0.375rem;
+            padding: 5px; /* Optional padding */
+        }
+        .nav-tabs .nav-link.active {
+            font-weight: bold;
+        }
+        .copy-feedback {
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            background-color: #28a745;
+            color: rgb(0, 0, 0);
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-size: 0.7em;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+        .copy-feedback.show {
+            opacity: 1;
+        }
+        .navbar{
+            width: 100%;
+        }
+        /* Add some padding to the main content container to prevent it from sitting directly under the fixed navbar */
+        .main-content-area {
+            margin-top: 20px; /* Adjust this value based on your navbar's height + desired gap */
+        }
+        h1{
+            color: #ffff;
+        }
+        .lead{
+            color: #ffff;
+        }
+
+        .navmenu a {
+        text-decoration: none !important;
+        }
+
+        .logo {
+        text-decoration: none !important;
+        }
+
+    </style>
+</head>
+<body>
+    
+
+    
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <img src="/assets/img/favicon.png" alt="">
+        <h1 class="sitename">Wisdom</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu" style="text-decoration: none;" >
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          
+          <li><a href="contact.html">Contact</a></li>
+           <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="/Certificates.html">Certificates</a></li>
+              <li><a href="/Sponsor.html"  class="active">Sponsor</a></li>
+              <li><a href="/Certificates.html#Highlights">Highlights</a></li>
+              <li><a href="/about.html#testimonials">Testimonials</a></li>
+            </ul>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="https://www.linkedin.com/in/noah-wisdom" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://wa.me/+2347044808538" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61559302475918" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=noahsilver538@gmail.com" target="_blank"><i class="bi bi-envelope"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+
+    <div class="container text-center py-5 main-content-area">
+        <h1 class="mb-4">Thank you for considering a sponsorship!</h1>
+        <p class="lead mb-5">Click the button below to choose your sponsorship amount and method.</p>
+
+        <button type="button" class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#paymentModal">
+            Open Payment Options
+        </button>
+    </div>
+
+    <div class="modal  fade" id="paymentModal" tabindex="-1" aria-labelledby="paymentModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-dark">
+                <div class="modal-header bg-danger text-white">
+                    <h5 class="modal-title" id="paymentModalLabel">Choose Your Payment Method</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <form id="paymentForm" action="https://formspree.io/f/xvgrkldk" method="POST">
+                        <div class="mb-3">
+                            <label for="fullName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="fullName" name="fullName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="emailAddress" class="form-label">Your Email Address</label>
+                            <input type="email" class="form-control" id="emailAddress" name="emailAddress" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="amount" class="form-label">Amount (NGN)</label>
+                            <input type="number" class="form-control" id="amount" name="amount" step="0.01" min="0.01" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="orderNotes" class="form-label">Order Notes (Optional)</label>
+                            <textarea class="form-control" id="orderNotes" name="orderNotes" rows="3"></textarea>
+                        </div>
+
+                        <h4 class="mb-3">Select Payment Option</h4>
+                        <ul class="nav nav-tabs mb-3" id="paymentTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="transfer-tab" data-bs-toggle="tab" data-bs-target="#transfer-section" type="button" role="tab" aria-controls="transfer-section" aria-selected="true">Bank Transfer</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="crypto-tab" data-bs-toggle="tab" data-bs-target="#crypto-section" type="button" role="tab" aria-controls="crypto-section" aria-selected="false">Cryptocurrencies</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="paymentTabContent">
+                            <div class="tab-pane fade show active" id="transfer-section" role="tabpanel" aria-labelledby="transfer-tab">
+                                <p class="alert alert-warning">
+                                    Please make a transfer to the account details below. Your order will be processed upon confirmation of payment.
+                                </p>
+                                <div class="card bg-light mb-3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bank Account Details</h5>
+                                        <p class="card-text mb-1"><strong>Bank Name:</strong> Opay</p>
+                                        <p class="card-text mb-1"><strong>Account Name:</strong> Noah Sylvanus</p>
+                                        <p class="card-text mb-0"><strong>Account Number:</strong> 8108798372</p>
+                                        <small class="text-muted">Kindly include your full name in the transfer description.</small>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="transferRef" class="form-label">Transfer Reference (Optional)</label>
+                                    <input type="text" class="form-control" id="transferRef" placeholder="e.g., your bank transaction ID">
+                                </div>
+                                <input type="hidden" name="_paymentMethod" value="Bank Transfer">
+                            </div>
+
+                            <div class="tab-pane fade" id="crypto-section" role="tabpanel" aria-labelledby="crypto-tab">
+                                <p class="alert alert-danger">
+                                    <strong>Important:</strong> Only send the exact cryptocurrency to the specified address on the correct network. Sending unsupported crypto or using the wrong network may result in loss of funds.
+                                </p>
+
+                                <div class="accordion" id="cryptoOptionsAccordion">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingBTC">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBTC" aria-expanded="false" aria-controls="collapseBTC">
+                                                Bitcoin (BTC)
+                                            </button>
+                                        </h2>
+                                        <div id="collapseBTC" class="accordion-collapse collapse crypto-toggle" aria-labelledby="headingBTC" data-bs-parent="#cryptoOptionsAccordion">
+                                            <div class="accordion-body">
+                                                <p>Send **Bitcoin (BTC)** to the address below:</p>
+                                                <img src="/assets/img/btc.png" alt="Bitcoin QR Code" class="crypto-qr-image">
+                                                <div class="crypto-address-info text-center" data-address="1KUziR7itCE6cMMuQf1VeAeXNqk2My5ECW">
+                                                    1KUziR7itCE6cMMuQf1VeAeXNqk2My5ECW <span class="copy-feedback"></span>
+                                                    <small class="d-block">(Tap to copy)</small>
+                                                </div>
+                                                <small class="text-muted"><strong>Network: Bitcoin (BTC)</strong></small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingETH">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseETH" aria-expanded="false" aria-controls="collapseETH">
+                                                Ethereum (ETH)
+                                            </button>
+                                        </h2>
+                                        <div id="collapseETH" class="accordion-collapse collapse" aria-labelledby="headingETH" data-bs-parent="#cryptoOptionsAccordion">
+                                            <div class="accordion-body">
+                                                <p>Send **Ethereum (ETH)** to the address below:</p>
+                                                <img src="/assets/img/eth.png" alt="Ethereum QR Code" class="crypto-qr-image">
+                                                <div class="crypto-address-info text-center" data-address="0x8c6809c24838d291a343056d7ecc887a4946fa16">
+                                                    0x8c6809c24838d291a343056d7ecc887a4946fa16 <span class="copy-feedback"></span>
+                                                    <small class="d-block">(Tap to copy)</small>
+                                                </div>
+                                                <small class="text-muted"><strong>Network: Ethereum (ERC-20)</strong></small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingUSDT">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUSDT" aria-expanded="false" aria-controls="collapseUSDT">
+                                                USDT (Tether)
+                                            </button>
+                                        </h2>
+                                        <div id="collapseUSDT" class="accordion-collapse collapse" aria-labelledby="headingUSDT" data-bs-parent="#cryptoOptionsAccordion">
+                                            <div class="accordion-body">
+                                                <p class="mb-2">Select USDT Network:</p>
+                                                <select class="form-select mb-3" id="usdtNetwork">
+                                                    <option selected disabled value="">Choose network...</option>
+                                                    <option value="ERC-20">Ethereum (ERC-20)</option>
+                                                    <option value="TRC-20">Tron (TRC-20)</option>
+                                                    <option value="POS">Polygon PoS</option>
+                                                    <option value="SPL">Solana (SPL)</option>
+                                                </select>
+
+                                                <div id="usdtAddressDisplay" class="d-none">
+                                                    <p>Send **USDT** to this address on the selected network:</p>
+                                                    <img id="usdtQrCode" src="" alt="USDT QR Code" class="crypto-qr-image">
+                                                    <div class="crypto-address-info text-center" id="selectedUsdtAddress" data-address="">
+                                                        <span class="copy-feedback"></span>
+                                                        <small class="d-block">(Tap to copy)</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSOL">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSOL" aria-expanded="false" aria-controls="collapseSOL">
+                                                Solana (SOL)
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSOL" class="accordion-collapse collapse" aria-labelledby="headingSOL" data-bs-parent="#cryptoOptionsAccordion">
+                                            <div class="accordion-body">
+                                                <p>Send **Solana (SOL)** to the address below:</p>
+                                                <img src="/assets/img/sol.png" alt="Solana QR Code" class="crypto-qr-image">
+                                                <div class="crypto-address-info text-center" data-address="47jBLNm9AKF5a9d6j8bqYe7NTJNVbbS9TkQsj2FSeBkd">
+                                                    2omfZYCyhNkEk6MoNPG1nipX7ebmUZeGWFTt61PRMkYR <span class="copy-feedback"></span>
+                                                    <small class="d-block">(Tap to copy)</small>
+                                                </div>
+                                                <small class="text-muted"><strong>Network: Solana</strong></small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <small class="text-muted mt-3 d-block">Remember to only send from your own wallet. Exchange deposits may require extra steps.</small>
+                                <input type="hidden" id="submittedCryptoType">
+                                <input type="hidden" id="submittedCryptoAddress">
+                                <input type="hidden" id="submittedUsdtNetwork">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-success" form="paymentForm" id="confirmPaymentBtn">Confirm Payment</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+       <!-- Footer section side -->
+
+  <footer id="footer" class="footer light-background">
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">WISDOM</strong> <span>All Rights Reserved<br></span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/noah-wisdom" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://wa.me/+2347044808538" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61559302475918" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=noahsilver538@gmail.com" target="_blank"><i class="bi bi-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const paymentForm = document.getElementById('paymentForm');
+            const confirmPaymentBtn = document.getElementById('confirmPaymentBtn');
+            const usdtNetworkSelect = document.getElementById('usdtNetwork');
+            const usdtAddressDisplay = document.getElementById('usdtAddressDisplay');
+            const selectedUsdtAddressDiv = document.getElementById('selectedUsdtAddress');
+            const usdtQrCodeImage = document.getElementById('usdtQrCode');
+            const cryptoAccordion = document.getElementById('cryptoOptionsAccordion');
+
+            // === Enable toggle behavior on Crypto accordion (click to open/close same item) ===
+            document.querySelectorAll('.crypto-toggle').forEach(button => {
+            const targetId = button.getAttribute('data-target');
+            const target = document.querySelector(targetId);
+
+            button.addEventListener('click', function () {
+                if (!target) return;
+
+                const collapse = bootstrap.Collapse.getInstance(target) 
+                || new bootstrap.Collapse(target, { toggle: false });
+
+                if (target.classList.contains('show')) {
+                collapse.hide();
+                } else {
+                collapse.show();
+                }
+            });
+            });
+
+        // === End of Enable toggle behavior on Crypto accordion (click to open/close same item) ===
+
+
+            // Hidden inputs for dynamic form submission
+            const submittedCryptoTypeInput = document.getElementById('submittedCryptoType');
+            const submittedCryptoAddressInput = document.getElementById('submittedCryptoAddress');
+            const submittedUsdtNetworkInput = document.getElementById('submittedUsdtNetwork');
+            const transferRefInput = document.getElementById('transferRef');
+            const paymentMethodInput = paymentForm.querySelector('input[name="_paymentMethod"]');
+
+            // New: Get references to amount input and label
+            const amountLabel = document.querySelector('label[for="amount"]');
+            const amountInput = document.getElementById('amount');
+
+
+            // Consolidated wallet addresses and QR code paths
+            const usdtAddresses = {
+                'ERC-20': {
+                    display: '0x8c6809c24838d291a343056d7ecc887a4946fa16 (ERC-20)',
+                    address: '0x8c6809c24838d291a343056d7ecc887a4946fa16',
+                    qr: 'assets/img/usdt_erc.png'
+                },
+                'TRC-20': {
+                    display: 'TT5R6jHxTP2FcFDUgHYiYdBwzzXqvqJAgx (TRC-20)',
+                    address: 'TT5R6jHxTP2FcFDUgHYiYdBwzzXqvqJAgx',
+                    qr: 'assets/img/usdt_trc.png'
+                },
+                'POS': {
+                    display: '0x8c6809c24838d291a343056d7ecc887a4946fa16 (Polygon PoS)',
+                    address: '0x8c6809c24838d291a343056d7ecc887a4946fa16',
+                    qr: 'assets/img/usdt_PoS.png'
+                },
+                'SPL': {
+                    display: '2omfZYCyhNkEk6MoNPG1nipX7ebmUZeGWFTt61PRMkYR (Solana Spl)',
+                    address: '2omfZYCyhNkEk6MoNPG1nipX7ebmUZeGWFTt61PRMkYR',
+                    qr: 'assets/img/usdt_SPL.png'
+                }
+            };
+
+            usdtNetworkSelect.addEventListener('change', function() {
+                const selectedValue = this.value;
+                if (selectedValue && usdtAddresses[selectedValue]) {
+                    const cryptoInfo = usdtAddresses[selectedValue];
+                    selectedUsdtAddressDiv.innerHTML = `${cryptoInfo.display} <span class="copy-feedback"></span><small class="d-block">(Tap to copy)</small>`;
+                    selectedUsdtAddressDiv.dataset.address = cryptoInfo.address;
+
+                    // Set QR code source and show it
+                    usdtQrCodeImage.src = cryptoInfo.qr;
+                    usdtQrCodeImage.classList.remove('d-none'); // Show the image
+                    usdtAddressDisplay.classList.remove('d-none'); // Show the whole display block
+                } else {
+                    usdtAddressDisplay.classList.add('d-none');
+                    selectedUsdtAddressDiv.innerHTML = `<span class="copy-feedback"></span><small class="d-block">(Tap to copy)</small>`;
+                    selectedUsdtAddressDiv.dataset.address = '';
+                    usdtQrCodeImage.src = ''; // Clear QR code source
+                    usdtQrCodeImage.classList.add('d-none'); // Hide the image
+                }
+            });
+
+            // Handle accordion collapses to reset USDT selection
+            cryptoAccordion.addEventListener('hide.bs.collapse', function (event) {
+                // If the collapsing item is USDT or if USDT was previously open and another item is opening/closing
+                if (event.target.id === 'collapseUSDT' || (event.target.id !== 'collapseUSDT' && document.getElementById('collapseUSDT').classList.contains('show'))) {
+                    usdtNetworkSelect.value = '';
+                    usdtAddressDisplay.classList.add('d-none');
+                    selectedUsdtAddressDiv.innerHTML = `<span class="copy-feedback"></span><small class="d-block">(Tap to copy)</small>`;
+                    selectedUsdtAddressDiv.dataset.address = '';
+                    usdtQrCodeImage.src = ''; // Clear QR code source on collapse
+                    usdtQrCodeImage.classList.add('d-none'); // Hide the image
+                }
+            });
+
+            // --- Copy to Clipboard Functionality ---
+            function copyToClipboard(text, feedbackElement) {
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(text)
+                        .then(() => {
+                            console.log('Text copied to clipboard:', text);
+                            if (feedbackElement) {
+                                feedbackElement.textContent = 'Copied!';
+                                feedbackElement.classList.add('show');
+                                setTimeout(() => {
+                                    feedbackElement.classList.remove('show');
+                                    feedbackElement.textContent = '';
+                                }, 2000);
+                            }
+                        })
+                        .catch(err => {
+                            console.error('Failed to copy text: ', err);
+                            alert('Failed to copy address. Please copy it manually: ' + text);
+                        });
+                } else {
+                    // Fallback for browsers that don't support navigator.clipboard
+                    const tempInput = document.createElement('textarea');
+                    tempInput.value = text;
+                    document.body.appendChild(tempInput);
+                    tempInput.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(tempInput);
+                    alert('Address copied to clipboard (manual copy fallback).');
+                    if (feedbackElement) {
+                        feedbackElement.textContent = 'Copied!';
+                        feedbackElement.classList.add('show');
+                        setTimeout(() => {
+                            feedbackElement.classList.remove('show');
+                            feedbackElement.textContent = '';
+                        }, 2000);
+                    }
+                }
+            }
+
+            document.querySelectorAll('.crypto-address-info').forEach(infoDiv => {
+                infoDiv.addEventListener('click', function() {
+                    const addressToCopy = this.dataset.address;
+                    const feedbackSpan = this.querySelector('.copy-feedback');
+                    if (addressToCopy) {
+                        copyToClipboard(addressToCopy, feedbackSpan);
+                    }
+                });
+            });
+            // --- End Copy to Clipboard Functionality ---
+
+            // Event listener for the "Confirm Payment" button
+            confirmPaymentBtn.addEventListener('click', function(event) {
+                // Clear any previously set dynamic names to ensure only relevant data is sent
+                submittedCryptoTypeInput.removeAttribute('name');
+                submittedCryptoAddressInput.removeAttribute('name');
+                submittedUsdtNetworkInput.removeAttribute('name');
+                transferRefInput.removeAttribute('name'); // Ensure transferRef is not always named
+
+                const activeTabButton = document.querySelector('#paymentTab button.nav-link.active');
+
+                // Set general payment method hidden input
+                if (activeTabButton.id === 'transfer-tab') {
+                    paymentMethodInput.value = 'Bank Transfer';
+                    transferRefInput.setAttribute('name', 'transferRef'); // Add name back for transferRef
+                } else if (activeTabButton.id === 'crypto-tab') {
+                    paymentMethodInput.value = 'Cryptocurrency';
+
+                    // Find the active crypto accordion item
+                    const activeCryptoAccordion = cryptoAccordion.querySelector('.accordion-collapse.show');
+
+                    if (activeCryptoAccordion) {
+                        submittedCryptoTypeInput.setAttribute('name', 'cryptoType');
+                        submittedCryptoAddressInput.setAttribute('name', 'cryptoAddress');
+
+                        if (activeCryptoAccordion.id === 'collapseBTC') {
+                            submittedCryptoTypeInput.value = 'Bitcoin';
+                            submittedCryptoAddressInput.value = '1KUziR7itCE6cMMuQf1VeAeXNqk2My5ECW';
+                        } else if (activeCryptoAccordion.id === 'collapseETH') {
+                            submittedCryptoTypeInput.value = 'Ethereum';
+                            submittedCryptoAddressInput.value = '0x8c6809c24838d291a343056d7ecc887a4946fa16';
+                        } else if (activeCryptoAccordion.id === 'collapseSOL') {
+                            submittedCryptoTypeInput.value = 'Solana';
+                            submittedCryptoAddressInput.value = '2omfZYCyhNkEk6MoNPG1nipX7ebmUZeGWFTt61PRMkYR';
+                        } else if (activeCryptoAccordion.id === 'collapseUSDT') {
+                            const selectedUsdtNetwork = usdtNetworkSelect.value;
+                            if (selectedUsdtNetwork) {
+                                submittedCryptoTypeInput.value = 'USDT';
+                                submittedCryptoAddressInput.value = usdtAddresses[selectedUsdtNetwork].address;
+                                // Also set the specific USDT network
+                                submittedUsdtNetworkInput.setAttribute('name', 'usdtNetwork');
+                                submittedUsdtNetworkInput.value = selectedUsdtNetwork;
+                            } else {
+                                event.preventDefault(); // Stop submission
+                                alert('Please select a USDT network.');
+                                return;
+                            }
+                        }
+                    } else {
+                        event.preventDefault(); // Stop submission
+                        alert('Please select a cryptocurrency option from the list (Bitcoin, Ethereum, USDT, Solana).');
+                        return;
+                    }
+                }
+
+                // If form is invalid, prevent submission and show validation messages
+                if (!paymentForm.checkValidity()) {
+                    event.preventDefault(); // Stop the form from submitting
+                    paymentForm.classList.add('was-validated');
+                    return;
+                }
+
+                // If all validations pass, the form will submit normally to Formspree
+                // No fetch call or custom server-side logic needed here.
+            });
+
+
+            // This handles updating the hidden input for payment method when tabs change
+            const paymentTabs = document.querySelectorAll('#paymentTab button');
+            paymentTabs.forEach(tab => {
+                tab.addEventListener('shown.bs.tab', function (event) {
+                    // Clear all payment-specific dynamic names first when switching tabs
+                    submittedCryptoTypeInput.removeAttribute('name');
+                    submittedCryptoAddressInput.removeAttribute('name');
+                    submittedUsdtNetworkInput.removeAttribute('name');
+                    transferRefInput.removeAttribute('name'); // Ensure transferRef is not always named
+
+                    const newMethodTabId = event.target.id;
+
+                    if (newMethodTabId === 'transfer-tab') {
+                        paymentMethodInput.value = 'Bank Transfer';
+                        transferRefInput.setAttribute('name', 'transferRef'); // Add name back for transferRef
+                        amountLabel.textContent = 'Amount (NGN)'; // Revert to NGN
+                        amountInput.placeholder = ''; // Clear placeholder or set specific NGN example
+                    } else if (newMethodTabId === 'crypto-tab') {
+                        paymentMethodInput.value = 'Cryptocurrency';
+                        // Crypto-specific names will be set just before submission by the confirmPaymentBtn listener
+                        amountLabel.textContent = 'Amount (USD)'; // Change to USD
+                        amountInput.placeholder = ''; // Clear placeholder or set specific USD example
+                    }
+                });
+            });
+
+            // Set initial state correctly on page load for the active tab (Bank Transfer)
+            const initialActiveTabButton = document.querySelector('#paymentTab button.nav-link.active');
+            if (initialActiveTabButton) {
+                const initialMethodTabId = initialActiveTabButton.id;
+
+                if (initialMethodTabId === 'transfer-tab') {
+                    paymentMethodInput.value = 'Bank Transfer';
+                    transferRefInput.setAttribute('name', 'transferRef'); // Set name for transferRef on initial load
+                    amountLabel.textContent = 'Amount (NGN)'; // Ensure NGN is set on initial load
+                } else if (initialMethodTabId === 'crypto-tab') {
+                    paymentMethodInput.value = 'Cryptocurrency';
+                    amountLabel.textContent = 'Amount (USD)'; // Ensure USD is set on initial load
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>
